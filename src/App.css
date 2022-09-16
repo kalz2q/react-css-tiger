@@ -49,7 +49,7 @@
 .ear {
   position: absolute;
   right: var(--right);
-  z-index: -1;
+  /* z-index: -1; */
   width: 60px;
   height: 60px;
   background-color: var(--tiger-color);
@@ -72,8 +72,10 @@
 /* 目 */
 .eye {
   top: 45%;
-  right: var(--right);
-  left: var(--left);
+  /* right: var(--right); */
+  /* left: var(--left); */
+  right: 20%;
+  left: 20%;
   width: 25px;
   height: 25px;
   background-color: var(--tiger-border);
